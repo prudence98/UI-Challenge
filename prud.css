@@ -1,0 +1,121 @@
+
+*{
+    font-family: sans-serif;
+ }
+
+body{
+    background-image: url('cancer.jpg');
+    background-position: center;
+    background-size: 2000px 1080px;
+    background-repeat: no-repeat;
+}
+
+.left{
+    width: 50%;
+    background-color: #FFE3E5;
+    height: 100vh;
+    padding-top: 10px;
+    margin: -10px;
+}
+
+img{
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    top: 60px;
+    left: 340px;
+    background: url(back.jpg);
+    border-radius: 100px;
+}
+.login{
+    position: absolute;
+    width: 500px;
+    height: 110px;
+    left: 350px;
+    top: 290px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 116px;
+    color: #3D1215;
+}
+button{
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    left: 280px;
+    top: 680px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background:#7D2530;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+.email{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 173px;
+    top: 460px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 70px;
+    background: linear-gradient(to right,#7D2530,#FFD7DA);
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+#password{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 173px;
+    top: 580px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 58px;
+    background: linear-gradient(to right,#7D2530,#FFD7DA);
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+.check{
+    position: absolute;
+    width: 429px;
+    height: 58px;
+    left: 282px;
+    top: 720px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 58px;
+    color: #3A1F1F;
+}
+.right{
+    position: absolute;
+    width: 730px;
+    height: 173px;
+    left: 950px;
+    top: 146px;
+    font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 77px;
+   text-align: center;
+   color: #FFFFFF;
+    
+}
+
+h2{
+
+    color: #FFD7DA;
+    backdrop-filter: blur(4px);
+}
+
+
+

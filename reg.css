@@ -1,0 +1,200 @@
+
+*{
+    font-family: sans-serif;
+ }
+
+body{
+   
+    background-position: center;
+    background-size: 2000px 1080px;
+    background-repeat: no-repeat;
+}
+
+.left{
+    width: 50%;
+    background-color: #FFE3E5;
+    height: 100vh;
+    padding-top: 10px;
+    margin: -10px;
+
+}
+h2{
+
+    left: 300px;
+    top: 30px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 116px;
+    text-align: center;
+    color: #822532;
+
+}
+
+.create-account{
+    position: absolute;
+    width: 500px;
+    height: 110px;
+    left: 350px;
+    top: -30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 116px;
+    color: #3D1215;
+}
+.social-icons{
+    margin: 30px auto ;
+    text-align: center;
+    left: 350px;
+    top: -1px;
+}
+.social-icons img{
+    width:30px;
+    margin:0 12px;
+    box-shadow: 0 0 0 20px 0 #7f7f7f3d;
+    cursor:pointer;
+    border-radius: 50%;
+}
+button{
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    left: 280px;
+    top: 610px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #7D2530;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+#email{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 173px;
+    top: 340px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 70px;
+    background: linear-gradient(to right,#7D2530,#FFD7DA);
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+.username{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 173px;
+    top: 250px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 58px;
+    background:linear-gradient(to right,#7D2530,#FFD7DA);
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+
+}
+
+#password{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 173px;
+    top: 430px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 58px;
+    background: linear-gradient(to right,#7D2530,#FFD7DA);
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+.password{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 173px;
+    top: 520px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 58px;
+    background: linear-gradient(to right,#7D2530,#FFD7DA);
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+
+}
+
+.right{
+    position: absolute;
+    width: 730px;
+    height: 173px;
+    left: 950px;
+    top: 146px;
+    background-color: #FFFFFF;
+    
+}
+
+h6{
+    left: 300px;
+    top: 68px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 116px;
+    text-align: center;
+    color:black;
+}
+.pic img{
+    position: absolute;
+left: 180px;
+top: 220px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.fb img{
+    
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 90px;
+    left: 440px;
+    background: url(facebook.png);
+    border-radius: 100px;
+    
+}
+.gb img{
+    position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 90px;
+        left: 540px;
+        background: url(insta.png);
+        border-radius: 100px;
+    
+    
+}
+.tw img{
+    
+    
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 90px;
+        left: 490px;
+        background: url(tweet.png);
+        border-radius: 100px;
+    
+}
